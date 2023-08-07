@@ -223,6 +223,10 @@ body {
   margin-left: 30px;
 }
 
+#coatArms {
+  max-height: 120px;
+}
+
 .countryOffName {
   font-weight: 400;
   text-align: left;

@@ -172,7 +172,7 @@ function containerOne() {
   //if (weatherTest[0].current.is_day === 1) {
   mainIcon.src = weatherTest[0].current.condition.icon;
   currentCond.innerHTML = weatherTest[0].current.condition.text;
-  currentTemp.innerHTML = weatherTest[0].current.temp_c + " ºC";
+  currentTemp.innerHTML = Math.round(weatherTest[0].current.temp_c) + " ºC";
 }
 
 // container 2 info
